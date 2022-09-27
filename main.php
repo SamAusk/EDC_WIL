@@ -1,8 +1,5 @@
 <?php 
-    $con = mysqli_connect('localhost','sam','test1234','creative cloud');
-    if (!$con) {
-        die("Connection failed: " . mysqli_connect_error());
-      }
+    include('config.php');
 ?>
 <main role="main">
     <div data-asset-id="104682" class="slab cssbg   cssbg-middle" style="background-image: url(https://pbs.twimg.com/media/E1-92nSVIAUjqIx?format=jpg&name=4096x4096);
