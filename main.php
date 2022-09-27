@@ -34,6 +34,7 @@
                     <p> At griffith Univeristy We offer Diverse range of Projects Oppurtutnity for all.</p>
                     <p>Explore the many ways you can improve your employability while you study by searching for
                         opportunities using the Enrich &lsquo;Find Your Opportunity&rsquo; search tool.</p>
+                    <p>This project applied for the WIL porject </p>
                     <p>Remember to use your portfolio to record and reflect on these experiences. It will help you to
                         gain a competitive advantage among other graduates.</p>
                 </div>
