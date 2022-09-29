@@ -16,7 +16,7 @@
     <link href="https://www.griffith.edu.au/__data/assets/css_file_folder/0008/305/main.css?v=1.0.0" rel="stylesheet"
         type="text/css" />
     <!-- Java Script Boostrap (Including JQuery) -->
-    <!-- this one affect refreshing -->
+    <!-- this one affects refreshing -->
     <!-- <script src="https://www.griffith.edu.au/__data/assets/js_file_folder/0016/367/plugins.js?v=0.22.1" defer></script>  -->
 
     <!-- <script src="https://www.griffith.edu.au/__data/assets/js_file_folder/0015/366/main.js?v=0.86.1" defer></script> -->
@@ -82,8 +82,6 @@
 
     <!-- Header Section -->
     <?php include('header.php') ?>
-    <!-- Main section should be here -->
-    <!-- line 406 to 691 is the all list of filter-->
 
     <!-- Main section should be here -->
     <?php include('main.php') ?>
