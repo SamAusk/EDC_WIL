@@ -4,11 +4,16 @@
     <div class="slab">
         <div class="inner flex">
 
-            <!-- <div class="logo">
+            <div class="logo">
                 <p><a href="https://www.griffith.edu.au/" class="ir" tabindex="21">Griffith University</a></p>
             </div>
 
-            <div class="mobile-menu overlay primary">
+            <!-- close button  -->
+            <!-- <ul class="flex close">
+                <li><a href="" class="close" tabindex="20">Close</a>
+            </ul> -->
+
+            <!-- <div class="mobile-menu overlay primary">
                 <ul class="flex close">
                     <li><a href="" class="close" tabindex="20">Close</a>
                 </ul>
@@ -84,7 +89,7 @@
 
                 <ul class="flex">
                     <li><a href="" class="menu" tabindex="1">Menu</a>
-                    <!-- <li><a href="" class="search" tabindex="2">Search</a> -->
+                        <!-- <li><a href="" class="search" tabindex="2">Search</a> -->
                 </ul>
 
             </div>
