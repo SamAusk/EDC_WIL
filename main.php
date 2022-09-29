@@ -15,9 +15,10 @@
             </div>
         </div>
         <style>
-        .slab.pageinfo h1 {
+        /* .slab.pageinfo h1 {
             display: none;
-        }
+        } */
+
         /* Here is filter button */
         .button {
             border-radius: 20px;
@@ -163,9 +164,6 @@
                 </div>
             </div>
         </div>
-
-
-
         <style type="text/css">
         #left {
             text-align: left;
@@ -176,7 +174,6 @@
             text-align: right;
         }
 
-        /* Here is a button */
         .filter {
             padding: 7px;
             margin: auto;
@@ -186,231 +183,10 @@
             transform: scale(1.4);
             margin: 30px;
         }
-
-
-
-        /* Here is a button */
-
-        select.study-level option {
-            padding: 2px 5px;
-        }
-
-        .radio li label {
-            padding-left: 10px;
-        }
-
-        [data-tooltip] {
-            position: relative;
-            z-index: 2;
-            cursor: pointer;
-        }
-
-        /* Hide the tooltip content by default */
-        [data-tooltip]:before,
-        [data-tooltip]:after {
-            visibility: hidden;
-            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-            filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
-            opacity: 0;
-            pointer-events: none;
-        }
-
-        /* Position tooltip above the element */
-        [data-tooltip]:before {
-            position: absolute;
-            bottom: 120%;
-            left: 50%;
-            margin-bottom: 5px;
-            margin-left: -100px;
-            padding: 7px;
-            width: 200px;
-            -webkit-border-radius: 3px;
-            -moz-border-radius: 3px;
-            border-radius: 3px;
-            background-color: #474747;
-            background-color: hsla(198, 0%, 20%, 0.9);
-            color: #fff;
-            content: attr(data-tooltip);
-            text-align: center;
-            font-size: 14px;
-            letter-spacing: 0;
-            font-family: "Foundry Sterling W01", arial;
-            line-height: 1.2;
-        }
-
-        /* Triangle hack to make tooltip look like a speech bubble */
-        [data-tooltip]:after {
-            position: absolute;
-            bottom: 120%;
-            left: 50%;
-            margin-left: -5px;
-            width: 0;
-            border-top: 5px solid #474747;
-            border-top: 5px solid hsla(198, 0%, 20%, 0.9);
-            border-right: 5px solid transparent;
-            border-left: 5px solid transparent;
-            content: " ";
-            font-size: 0;
-            line-height: 0;
-        }
-
-        /* Show tooltip content on hover */
-        [data-tooltip]:hover:before,
-        [data-tooltip]:hover:after {
-            visibility: visible;
-            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-            filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
-            opacity: 1;
-        }
-
-        .filter-list .hidden {
-            display: none;
-        }
-
-        /* Results styling */
-        /*set widths*/
-        th.degree {
-            width: 40%;
-        }
-
-        th.value {
-            width: 15%;
-        }
-
-        th.date {
-            width: 15%;
-        }
-
-        th.intakes {
-            width: 13%;
-        }
-
-        th.apply {
-            width: 16%;
-        }
-
-        p.scholarship {
-            margin-bottom: 5px;
-        }
-
-        p.scholarship a {
-            border-bottom: none;
-            color: hsla(0, 68%, 45%, 1);
-            font-family: "Jotia W00";
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.4;
-        }
-
-        /* Closed btn override */
-        main p.feature.Closed a {
-            background-color: hsla(197, 6%, 90%, 0.9);
-            border-color: hsla(197, 6%, 90%, 0.9);
-            color: hsla(0, 0%, 28%, 1);
-            -webkit-box-shadow: none;
-            box-shadow: none;
-        }
-
-        main p.feature.Closed a:hover,
-        main p.feature.Closed a:focus {
-            box-shadow: none;
-            background-color: hsla(197, 6%, 90%, 1);
-            border-color: hsla(197, 6%, 90%, 1);
-            -webkit-box-shadow: 1px 1px 3px hsla(198, 0%, 20%, 0.3);
-            box-shadow: 1px 1px 3px hsla(198, 0%, 20%, 0.3);
-        }
-
-        /*Override*/
-        /* main table.puff th {
-            padding: 20px 10px;
-        }
-
-        main table.puff td {
-            padding: 15px 10px 0 10px;
-        }
-
-        main table.puff td:first-child,
-        main table.puff th:first-child {
-            padding-left: 20px;
-        }
-
-        main table.puff td:last-child,
-        main table.puff th:last-child {
-            padding-right: 20px;
-        } */
-
-        /*Make table responsive*/
-        /* @media all and (max-width: 48em) { */
-
-        /* Force table to not be like tables anymore */
-        /* .filter-list table,
-            .filter-list thead,
-            .filter-list tbody,
-            .filter-list th,
-            .filter-list td,
-            .filter-list tr {
-                display: block;
-            }
-
-            .filter-list tr {
-                display: flex;
-            } */
-
-        /* Hide table headers (but not display: none;, for accessibility) */
-        /* .filter-list thead tr {
-                position: absolute;
-                top: -9999px;
-                left: -9999px;
-            } */
-
-        /* Behave  like a "row" */
-        /* .filter-list td {
-                border: none;
-                position: relative;
-                padding-left: 50%;
-            } */
-
-        /* .filter-list td:before { */
-        /* Now like a table header */
-        /* position: absolute; */
-        /* Top/left values mimic padding */
-        /* top: 6px;
-                left: 6px;
-                width: 45%;
-                padding-right: 10px;
-                white-space: nowrap;
-            } */
-
-        /*Style scholarship table*/
-        /* main table.puff td {
-                padding: 15px 20px 0 20px;
-                font-size: 14px;
-            } */
-
-        /* main table.puff td.value,
-            main table.puff td.closing {
-                display: inline-block;
-                width: 50%;
-                padding-top: 0;
-            }
-
-            main table.puff td.apply {
-                padding: 0 20px 10px;
-            }
-
-            .filter-list tr {
-                display: flex;
-                flex-flow: row wrap;
-            }
-
-            .filter-list td.apply {
-                width: 100%;
-            }
-        } */
-        .dummy {
-            color: yellow;
-        }
         </style>
+
+
+
         <!-- here is ADD AN ACTIVITY line -->
         <div class="slab puff secondary">
             <div class="inner gu10">
