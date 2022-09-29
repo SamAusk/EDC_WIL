@@ -4,7 +4,7 @@
     <div class="slab">
         <div class="inner flex">
 
-            <div class="logo">
+            <!-- <div class="logo">
                 <p><a href="https://www.griffith.edu.au/" class="ir" tabindex="21">Griffith University</a></p>
             </div>
 
@@ -44,9 +44,10 @@
                     <li><a href="https://www.griffith.edu.au/search">Contact us</a>
                 </ul>
 
-            </div><!-- /.mobile-menu.overlay -->
+            </div> -->
+            <!-- /.mobile-menu.overlay -->
 
-            <div class="search overlay primary">
+            <!-- <div class="search overlay primary">
                 <ul class="flex close">
                     <li><a href="" class="close" tabindex="20">Close</a>
                 </ul>
@@ -60,7 +61,7 @@
                     <button type="submit" value="Search" tabindex="4"><span>Search</span></button>
                 </form>
 
-                <!-- <p class="listing">Popular sites</p>
+                <p class="listing">Popular sites</p>
                 <ol class="popular-links flex col-2">
                     <li><a href="https://www.griffith.edu.au/study">Study</a>
                     <li><a href="https://www.griffith.edu.au/research-study">Research study</a>
@@ -74,9 +75,10 @@
                     <li><a href="https://www.griffith.edu.au/about-griffith/campuses-facilities">Campuses and
                             facilities</a>
                     <li><a href="https://www.griffith.edu.au/scholarships">Scholarships</a>
-                </ol> -->
+                </ol>
 
-            </div><!-- /.search.overlay -->
+            </div> -->
+            <!-- /.search.overlay -->
 
             <div class="mobile-nav">
 
