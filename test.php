@@ -15,14 +15,13 @@
     <link href="https://www.griffith.edu.au/_designs/css/plugins.css?v=1.1.6" rel="stylesheet" type="text/css" />
     <link href="https://www.griffith.edu.au/__data/assets/css_file_folder/0008/305/main.css?v=1.0.0" rel="stylesheet"
         type="text/css" />
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Java Script Boostrap (Including JQuery) -->
     <!-- this one affect refreshing -->
     <script src="https://www.griffith.edu.au/__data/assets/js_file_folder/0016/367/plugins.js?v=0.22.1" defer></script> 
 
     <script src="https://www.griffith.edu.au/__data/assets/js_file_folder/0015/366/main.js?v=0.86.1" defer></script>
 
-    <script>
+    <!-- <script>
     (function(w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({
@@ -37,7 +36,8 @@
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-52FN5W');
-    </script><!-- Google Tag Manager -->
+    </script> -->
+    <!-- Google Tag Manager -->
 
 
 
@@ -57,13 +57,13 @@
 </head>
 
 <body class="asset-97751">
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         let utag_data = {
             "tealium_event": "generic_view"
         };
-    </script>
+    </script> -->
     <!-- Loading script asynchronously -->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
     (function(a, b, c, d) {
         a = 'https://tags.tiqcdn.com/utag/griffithuni/main/prod/utag.js';
         b = document;
@@ -75,9 +75,10 @@
         a = b.getElementsByTagName(c)[0];
         a.parentNode.insertBefore(d, a);
     })();
-    </script>
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52FN5W" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript><!-- Google Tag Manager (noscript) -->
+    </script> -->
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52FN5W" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript> -->
+            <!-- Google Tag Manager (noscript) -->
 
     <!-- Header Section -->
     <?php include('header.php') ?>
@@ -92,7 +93,7 @@
     <?php include('footer.php') ?>
 
 
-    <script id="breadcrumb-list" type="application/ld+json">
+    <!-- <script id="breadcrumb-list" type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
@@ -115,14 +116,14 @@
                 }
             ]
         }
-    </script>
+    </script> -->
 
-    <script type="application/ld+json">
+    <!-- <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Organization",
         "url": "https://www.griffith.edu.au",
         "logo": "https://www.griffith.edu.au/__data/assets/image/0018/653121/Griffith_Full_Logo_scaled.png"
     }
-    </script>
+    </script> -->
 </body>
