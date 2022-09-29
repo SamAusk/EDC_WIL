@@ -60,7 +60,7 @@
                     <button type="submit" value="Search" tabindex="4"><span>Search</span></button>
                 </form>
 
-                <p class="listing">Popular sites</p>
+                <!-- <p class="listing">Popular sites</p>
                 <ol class="popular-links flex col-2">
                     <li><a href="https://www.griffith.edu.au/study">Study</a>
                     <li><a href="https://www.griffith.edu.au/research-study">Research study</a>
@@ -74,7 +74,7 @@
                     <li><a href="https://www.griffith.edu.au/about-griffith/campuses-facilities">Campuses and
                             facilities</a>
                     <li><a href="https://www.griffith.edu.au/scholarships">Scholarships</a>
-                </ol>
+                </ol> -->
 
             </div><!-- /.search.overlay -->
 
@@ -82,10 +82,11 @@
 
                 <ul class="flex">
                     <li><a href="" class="menu" tabindex="1">Menu</a>
-                    <li><a href="" class="search" tabindex="2">Search</a>
+                    <!-- <li><a href="" class="search" tabindex="2">Search</a> -->
                 </ul>
 
-            </div><!-- /.mobile-nav -->
+            </div>
+            <!-- /.mobile-nav -->
 
             <ul class="portals flex p-hide">
                 <li><a href="https://my.griffith.edu.au">myGriffith</a>
@@ -106,14 +107,14 @@
                         </ul>
                     </div>
                 <li>
-                    <form class="search-form" action="//search.griffith.edu.au/s/search.html" method="get"
+                    <!-- <form class="search-form" action="//search.griffith.edu.au/s/search.html" method="get"
                         name="search-form">
                         <label for="false-query">Search Griffith University</label>
                         <input type="text" placeholder="Search our site" name="query" id="false-query"
                             autocomplete="off">
                         <input type="hidden" value="on-campus-search" name="collection">
                         <button type="submit" value="Search" tabindex="4"><span>Search</span></button>
-                    </form>
+                    </form> -->
             </ul><!-- /.portals -->
 
             <div class="desktop-nav p-hide">
