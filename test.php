@@ -17,9 +17,9 @@
         type="text/css" />
     <!-- Java Script Boostrap (Including JQuery) -->
     <!-- this one affect refreshing -->
-    <script src="https://www.griffith.edu.au/__data/assets/js_file_folder/0016/367/plugins.js?v=0.22.1" defer></script> 
+    <!-- <script src="https://www.griffith.edu.au/__data/assets/js_file_folder/0016/367/plugins.js?v=0.22.1" defer></script>  -->
 
-    <script src="https://www.griffith.edu.au/__data/assets/js_file_folder/0015/366/main.js?v=0.86.1" defer></script>
+    <!-- <script src="https://www.griffith.edu.au/__data/assets/js_file_folder/0015/366/main.js?v=0.86.1" defer></script> -->
 
     <!-- <script>
     (function(w, d, s, l, i) {
@@ -56,7 +56,7 @@
     <!-- Boostrap link -->
 </head>
 
-<body class="asset-97751">
+<body>
     <!-- <script type="text/javascript">
         let utag_data = {
             "tealium_event": "generic_view"
