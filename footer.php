@@ -1,7 +1,8 @@
 <footer>
+    <!-- The Whole layout -->
     <div class="slab primary puff trim-top">
         <div class="inner">
-            <h2 class="visuallyhidden">Footer</h2>
+            <!-- <h2 class="visuallyhidden">Footer</h2> -->
             <div class="flex col-5 p-hide">
                 <div>
                     <h3 tabindex="91">Study areas</h3>
@@ -12,10 +13,8 @@
                         </li>
                         <li><a href="https://www.griffith.edu.au/study/criminology-law">Criminology and law</a></li>
                         <li><a href="https://www.griffith.edu.au/study/education">Education</a></li>
-                        <li><a href="https://www.griffith.edu.au/study/engineering-it-aviation">Engineering, <abbr
-                                    title="Information Technology">IT</abbr> and aviation</a></li>
-                        <li><a href="https://www.griffith.edu.au/study/humanities-languages">Humanities, languages and
-                                social science</a></li>
+                        <li><a href="https://www.griffith.edu.au/study/engineering-it-aviation">Engineering, IT and aviation</a></li>
+                        <li><a href="https://www.griffith.edu.au/study/humanities-languages">Humanities, languages and social science</a></li>
                         <li><a href="https://www.griffith.edu.au/study/health">Medicine, dentistry and health</a></li>
                         <li><a href="https://www.griffith.edu.au/study/music">Music and performing arts</a></li>
                         <li><a href="https://www.griffith.edu.au/study/science-environment">Science and environment</a>
@@ -25,6 +24,14 @@
                     </ul>
                 </div>
                 <div>
+                    <h3 tabindex="93">Getting to Griffith</h3>
+                    <ul>
+                        <li><a href="https://www.griffith.edu.au/transport/parking#cycling">Cycling</a></li>
+                        <li><a href="https://www.griffith.edu.au/transport/intercampus-bus"
+                                title="Intercampus bus (Nathan-Mt Gravatt)">Intercampus bus</a></li>
+                        <li><a href="https://www.griffith.edu.au/about-griffith/campuses-facilities">Maps</a></li>
+                        <li><a href="https://www.griffith.edu.au/transport/parking">Parking</a></li>
+                    </ul>
                     <h3 tabindex="92">Campuses</h3>
                     <ul>
                         <li><a
@@ -41,14 +48,7 @@
                         <li><a href="https://www.griffith.edu.au/about-griffith/campuses-facilities/south-bank">South
                                 Bank campus</a></li>
                     </ul>
-                    <h3 tabindex="93">Getting to Griffith</h3>
-                    <ul>
-                        <li><a href="https://www.griffith.edu.au/transport/parking#cycling">Cycling</a></li>
-                        <li><a href="https://www.griffith.edu.au/transport/intercampus-bus"
-                                title="Intercampus bus (Nathan-Mt Gravatt)">Intercampus bus</a></li>
-                        <li><a href="https://www.griffith.edu.au/about-griffith/campuses-facilities">Maps</a></li>
-                        <li><a href="https://www.griffith.edu.au/transport/parking">Parking</a></li>
-                    </ul>
+
                 </div>
                 <div>
                     <h3 tabindex="94">On campus</h3>
@@ -66,31 +66,6 @@
                         <li><a href="https://www.griffith.edu.au/shops">Shops</a></li>
                         <li><a href="https://www.griffith.edu.au/sport">Sport</a></li>
                         <li><a href="https://www.griffith.edu.au/whats-on">What's on</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 tabindex="95">Support</h3>
-                    <ul>
-                        <li><a href="https://www.griffith.edu.au/childcare">Childcare</a></li>
-                        <li><a href="https://www.griffith.edu.au/students/enrolment-timetables-fees/paying-your-fees">Paying
-                                your fees</a></li>
-                        <li><a href="https://app.secure.griffith.edu.au/griffithpay/">Griffith Pay</a></li>
-                        <li><a href="https://www.griffith.edu.au/griffith-honours-college">Griffith Honours College</a>
-                        </li>
-                        <li>
-                            <a href="https://www.griffith.edu.au/gumurrii">
-                                <abbr title="Griffith University Murri and Torres Strait Islander">GUMURRII</abbr>
-                                Student Success Unit</a>
-                        </li>
-                        <li><a href="https://www.griffith.edu.au/digital-solutions/it-service-centre"><abbr
-                                    title="Information Technology">IT</abbr> Service Centre</a></li>
-                        <li><a href="https://www.griffith.edu.au/international">International</a></li>
-                        <li><a href="https://www.griffith.edu.au/printing">Printing services</a></li>
-                        <li><a href="https://www.griffith.edu.au/room-bookings">Room bookings</a></li>
-                        <li><a href="https://www.griffith.edu.au/safe-campuses">Safe campuses</a></li>
-                        <li><a href="https://www.griffith.edu.au/student-support">Student support</a></li>
-                        <li><a href="https://www.griffith.edu.au/students/assessment-exams-grades">Assessment, exams and
-                                grades</a></li>
                     </ul>
                 </div>
                 <div>
@@ -114,6 +89,32 @@
                         <li><a
                                 href="https://www.griffith.edu.au/about-griffith/corporate-governance/complaints-and-grievances">Complaints
                                 and grievances</a></li>
+                    </ul>
+                </div>
+                <div>
+
+                    <h3 tabindex="95">Support</h3>
+                    <ul>
+                        <li><a href="https://www.griffith.edu.au/childcare">Childcare</a></li>
+                        <li><a href="https://www.griffith.edu.au/students/enrolment-timetables-fees/paying-your-fees">Paying
+                                your fees</a></li>
+                        <li><a href="https://app.secure.griffith.edu.au/griffithpay/">Griffith Pay</a></li>
+                        <li><a href="https://www.griffith.edu.au/griffith-honours-college">Griffith Honours College</a>
+                        </li>
+                        <li>
+                            <a href="https://www.griffith.edu.au/gumurrii">
+                                <abbr title="Griffith University Murri and Torres Strait Islander">GUMURRII</abbr>
+                                Student Success Unit</a>
+                        </li>
+                        <li><a href="https://www.griffith.edu.au/digital-solutions/it-service-centre"><abbr
+                                    title="Information Technology">IT</abbr> Service Centre</a></li>
+                        <li><a href="https://www.griffith.edu.au/international">International</a></li>
+                        <li><a href="https://www.griffith.edu.au/printing">Printing services</a></li>
+                        <li><a href="https://www.griffith.edu.au/room-bookings">Room bookings</a></li>
+                        <li><a href="https://www.griffith.edu.au/safe-campuses">Safe campuses</a></li>
+                        <li><a href="https://www.griffith.edu.au/student-support">Student support</a></li>
+                        <li><a href="https://www.griffith.edu.au/students/assessment-exams-grades">Assessment, exams and
+                                grades</a></li>
                     </ul>
                 </div>
             </div>
