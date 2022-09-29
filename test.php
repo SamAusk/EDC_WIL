@@ -15,8 +15,11 @@
     <link href="https://www.griffith.edu.au/_designs/css/plugins.css?v=1.1.6" rel="stylesheet" type="text/css" />
     <link href="https://www.griffith.edu.au/__data/assets/css_file_folder/0008/305/main.css?v=1.0.0" rel="stylesheet"
         type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Java Script Boostrap (Including JQuery) -->
-    <script src="https://www.griffith.edu.au/__data/assets/js_file_folder/0016/367/plugins.js?v=0.22.1" defer></script>
+    <!-- this one affect refreshing -->
+    <script src="https://www.griffith.edu.au/__data/assets/js_file_folder/0016/367/plugins.js?v=0.22.1" defer></script> 
+
     <script src="https://www.griffith.edu.au/__data/assets/js_file_folder/0015/366/main.js?v=0.86.1" defer></script>
 
     <script>

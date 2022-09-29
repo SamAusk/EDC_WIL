@@ -1,16 +1,16 @@
+<!-- PS. some class or role could be merely a dummy -->
 <?php 
     include('config.php');
 ?>
+<!-- Role as main section -->
 <main role="main">
-    <div data-asset-id="104682" class="slab cssbg   cssbg-middle" style="background-image: url(https://pbs.twimg.com/media/E1-92nSVIAUjqIx?format=jpg&name=4096x4096);
+    <div data-asset-id="104682" class="slab cssbg  cssbg-middle" style="background-image: url(https://pbs.twimg.com/media/E1-92nSVIAUjqIx?format=jpg&name=4096x4096);
         background-size: contain; background-size: auto;">
 
         <div class="inner">
-            <div class="flex a-bottom a-left v-gu6">
+            <div class="flex a-bottom a-right v-gu5">
                 <div class="banner card gu5 a-left ">
-
                     <h1>Search your opportunies</h1>
-
                 </div>
             </div>
         </div>
@@ -18,11 +18,26 @@
         .slab.pageinfo h1 {
             display: none;
         }
+        /* Here is filter button */
+        .button {
+            border-radius: 20px;
+            color: white;
+            padding: 15px 28px;
+            text-align: center;
+            font-size: 100%;
+            cursor: pointer;
+            background-color: red;
+            margin-left: 35px;
+        }
+
+        .button:hover {
+            filter: brightness(85%);
+        }
         </style>
     </div>
     <div class="slab puff">
         <div class="inner flex a-center">
-            <div class="flex gu10 t-gu12">
+            <div class="flex gu12 t-gu12">
                 <div class="gu4 t-gu12">
                     <p class="intro accent">Build your employability skills and experience beyond the classroom
                     </p>
@@ -40,19 +55,19 @@
     </div>
     <div class="slab primary filter-list">
         <div class="inner">
-            <h2 class="accent feature a-center gu12">Seize Your Opportunity</h2>
-            <p class="feature a-center">Filter available opportunities down below</p>
+            <h2 class="accent feature a-center gu12"> Seize Your Opportunity </h2>
+            <p class="feature a-center"> Filter available opportunities down below </p>
 
             <div class="flex col-2">
                 <div class="gu3">
-
+                    <!-- filter section -->
                     <div class="filter-options">
 
                         <!-- Project Type checkbox -->
-                        <form action="" method="POST">
-                        <!-- style="margin:30px 0 0 0" -->
+                        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+                            <!-- style="margin:30px 0 0 0" -->
                             <h3> Project Type
-                                <button type="submit" class="button" name="btnSubmit" value="submit"> Filter</button>
+                                <button type="submit" class="button" name="btnSubmit" value="submit"> Search</button>
                             </h3>
                             <hr>
                             <?php 
@@ -90,7 +105,7 @@
                 </div> <!-- Category Filter ends here.........  -->
 
 
-                <div class="gu9">                  
+                <div class="gu9">
                     <div class="flex col-3 filter-cards a-left">
                         <!-- Brand Item Product-->
                         <?php
@@ -104,15 +119,15 @@
                             if(mysqli_num_rows($products_run) > 0)
                             {
                                 foreach($products_run as $proditems){ ?>
-                            <div class="card shadow primary opaque remarkable-stories border-light"
-                                style="padding-top:15px;">
-                                <h5 id="left"><b><?= $proditems['Project_Title']; ?></b></h5>
-                                <p id="left"><?= $proditems['Project_Description']; ?></p>
-                                <p id="left"><i><?= $proditems['Email']; ?></i></p>
-                                <p id="right"><?= $proditems['Location_Name']; ?></p>
-                            </div>
-                           <?php } ?>
-                    <?php   }else{
+                        <div class="card shadow primary opaque remarkable-stories border-light"
+                            style="padding-top:15px;">
+                            <h5 id="left"><b><?= $proditems['Project_Title']; ?></b></h5>
+                            <p id="left"><?= $proditems['Project_Description']; ?></p>
+                            <p id="left"><i><?= $proditems['Email']; ?></i></p>
+                            <p id="right"><?= $proditems['Location_Name']; ?></p>
+                        </div>
+                        <?php } ?>
+                        <?php   }else{
                                 echo "No Items Found";
                             }
                         }else{
@@ -122,17 +137,17 @@
                             {   
                                 foreach($products_run as $proditems) :
                                     ?>
-                                <div class="card shadow primary opaque remarkable-stories border-light"
-                                    style="padding-top:15px;">
-                                    <!-- here we print the list of the primarydata table -->
-                                    <h5 id="left"><b><?= $proditems['Project_Title']; ?></b></h5>
-                                    <p id="left"><?= $proditems['Project_Description']; ?></p>
-                                    <p id="left"><i><?= $proditems['Email']; ?></i></p>
-                                    <h5 id="right"><?= $proditems['Location_Name']; ?></h5>
-                                    
+                        <div class="card shadow primary opaque remarkable-stories border-light"
+                            style="padding-top:15px;">
+                            <!-- here we print the list of the primarydata table -->
+                            <h5 id="left"><b><?= $proditems['Project_Title']; ?></b></h5>
+                            <p id="left"><?= $proditems['Project_Description']; ?></p>
+                            <p id="left"><i><?= $proditems['Email']; ?></i></p>
+                            <h5 id="right"><?= $proditems['Location_Name']; ?></h5>
 
-                                </div>
-                                <?php
+
+                        </div>
+                        <?php
                                     
                                 endforeach;
                             }
@@ -152,17 +167,19 @@
 
 
         <style type="text/css">
-        #left{
-            text-align:left;
-            
+        #left {
+            text-align: left;
+
         }
-        #right{
-            text-align:right;
+
+        #right {
+            text-align: right;
         }
+
         /* Here is a button */
         .filter {
             padding: 7px;
-            margin:auto;
+            margin: auto;
         }
 
         input.larger {
@@ -170,21 +187,6 @@
             margin: 30px;
         }
 
-        .button {
-            border-radius: 20px;
-            color: white;
-            padding: 15px 28px;
-            text-align: center;
-            font-size: 15 px;
-            cursor: pointer;
-            background-color: red;
-            margin-left: 50px;
-
-        }
-
-        .button:hover {
-            filter: brightness(85%);
-        }
 
 
         /* Here is a button */
@@ -319,7 +321,7 @@
         }
 
         /*Override*/
-        main table.puff th {
+        /* main table.puff th {
             padding: 20px 10px;
         }
 
@@ -335,13 +337,13 @@
         main table.puff td:last-child,
         main table.puff th:last-child {
             padding-right: 20px;
-        }
+        } */
 
         /*Make table responsive*/
-        @media all and (max-width: 48em) {
+        /* @media all and (max-width: 48em) { */
 
-            /* Force table to not be like tables anymore */
-            .filter-list table,
+        /* Force table to not be like tables anymore */
+        /* .filter-list table,
             .filter-list thead,
             .filter-list tbody,
             .filter-list th,
@@ -352,83 +354,87 @@
 
             .filter-list tr {
                 display: flex;
-            }
+            } */
 
-            /* Hide table headers (but not display: none;, for accessibility) */
-            .filter-list thead tr {
+        /* Hide table headers (but not display: none;, for accessibility) */
+        /* .filter-list thead tr {
                 position: absolute;
                 top: -9999px;
                 left: -9999px;
-            }
+            } */
 
-
-            .filter-list td {
-                /* Behave  like a "row" */
+        /* Behave  like a "row" */
+        /* .filter-list td {
                 border: none;
                 position: relative;
                 padding-left: 50%;
-            }
+            } */
 
-            .filter-list td:before {
-                /* Now like a table header */
-                position: absolute;
-                /* Top/left values mimic padding */
-                top: 6px;
+        /* .filter-list td:before { */
+        /* Now like a table header */
+        /* position: absolute; */
+        /* Top/left values mimic padding */
+        /* top: 6px;
                 left: 6px;
                 width: 45%;
                 padding-right: 10px;
                 white-space: nowrap;
+            } */
+
+        /*Style scholarship table*/
+        /* main table.puff td {
+                padding: 15px 20px 0 20px;
+                font-size: 14px;
+            } */
+
+        /* main table.puff td.value,
+            main table.puff td.closing {
+                display: inline-block;
+                width: 50%;
+                padding-top: 0;
             }
 
-            /*Style scholarship table*/
-            main table.puff td { padding: 15px 20px 0 20px; font-size: 14px;}
+            main table.puff td.apply {
+                padding: 0 20px 10px;
+            }
 
-            main table.puff td.value,
-            main table.puff td.closing {display: inline-block; width: 50%; padding-top: 0;}
+            .filter-list tr {
+                display: flex;
+                flex-flow: row wrap;
+            }
 
-            main table.puff td.apply {padding: 0 20px 10px;}
-
-            .filter-list tr { display: flex; flex-flow: row wrap;}
-            .filter-list td.apply {width: 100%;}
+            .filter-list td.apply {
+                width: 100%;
+            }
+        } */
+        .dummy {
+            color: yellow;
         }
         </style>
-
         <!-- here is ADD AN ACTIVITY line -->
-        <div class="slab puff secondary   ">
+        <div class="slab puff secondary">
             <div class="inner gu10">
-                <div class="flex a-left ">
-
-
+                <div class="flex a-left">
                     <div class="card cssbg cssbg-middle gu5 v-16-9" style="background-image: url(https://png.pngitem.com/pimgs/s/181-1814313_transparent-umaru-chan-png-himouto-umaru-chan-png.png);
                         background-size: contain; height:300px; width:300px;">
                     </div>
                     <div class="gu1"></div>
-
-
-
                     <div class="gu6">
                         <h2 class="feature">ADD AN ACTIVITY</h2>
-
                         <p>Students, staff and external organisations are warmly invited to use Griffith Enrich to
                             promote suitable co and extra-curricular activities.</p>
                         <p>These activities must provide opportunities for students to develop their <a
-                                href="https://www.griffith.edu.au/the-griffith-graduate">Griffith Graduate
-                                Attributes</a>.</p>
+                                href="https://www.griffith.edu.au/the-griffith-graduate"><i>Griffith Graduate</a>.</i>
+                        </p>
                         <p>If you have an event you wish to add to the available opportunities, please complete the
                             below form.</p>
                         <p>We look forward to advertising your event.</p>
-
                         <p class="btn feature">
-
                             <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=q8h8Wtykm0-_YGZxQEmtYrCTX81wFjpNkl0FEOw2kIVUMk05TVpEVkFIRUFTWjIyMzBTOVlUWlJJVC4u"
                                 class="">Add or update an activity</a>
-
                         </p>
-
-
                     </div>
                     <!--/.gu6-->
-
                 </div>
                 <!--/.flex-->
             </div>
@@ -437,46 +443,31 @@
         <div class="slab puff primary   ">
             <div class="inner gu10">
                 <div class="flex a-left ">
-
-
                     <div class="card cssbg cssbg-middle gu5 v-16-9"
                         style="background-image: url(https://www.griffith.edu.au/__data/assets/image/0038/88589/varieties/gu5.jpg);">
                     </div>
                     <div class="gu1"></div>
-
-
-
                     <div class="gu6">
                         <h2 class="feature">PREPARING YOUR EPORTFOLIO</h2>
-
                         <p>Increase your chances of graduate employment by documenting your skills and attributes as you
                             work through your studies.</p>
                         <p>Use your ePortfolio to record your personal and professional achievements.</p>
                         <p class="btn auto feature a-left"><a
                                 href="https://www.griffith.edu.au/learning-futures/pebblepad">Discover more</a></p>
-
-
-
                     </div>
                     <!--/.gu6-->
-
                 </div>
                 <!--/.flex-->
             </div>
             <!--/.inner-->
         </div><!-- /.slab -->
-        <div class="slab puff    ">
+        <div class="slab puff">
             <div class="inner gu12">
                 <div class="flex a-left ">
-
-
                     <div class="card cssbg cssbg-middle gu5 v-16-9"
                         style="background-image: url(https://www.griffith.edu.au/__data/assets/image/0017/1150910/varieties/gu5.jpg);">
                     </div>
                     <div class="gu1"></div>
-
-
-
                     <div class="gu6">
                         <h2 class="feature">PUT YOUR KNOWLEDGE INTO PRACTICE</h2>
 
@@ -486,12 +477,8 @@
                         <p class="btn auto feature a-left"><a
                                 href="https://www.griffith.edu.au/enrich-your-studies/work-integrated-learning">Discover
                                 more</a></p>
-
-
-
                     </div>
                     <!--/.gu6-->
-
                 </div>
                 <!--/.flex-->
             </div>
@@ -499,45 +486,19 @@
         </div><!-- /.slab -->
         <div class="slab puff secondary   ">
             <div class="inner gu10">
-
                 <div class="flex a-middle ">
-
-
-
                     <div class="gu4">
                         <h2 class="feature a-left">QUESTIONS</h2>
                     </div>
-
-
-
                     <div class="gu4">
-
                         <p class="feature a-center">Ask Us has answers to your questions 24/7</p>
-
-
                     </div>
-
-
                     <div class="gu4">
-
-
-                        <p class="btn none auto a-center
-							
-				
-				
-				feature
-			">
-
-
+                        <p class="btn none auto a-center feature">
                             <a href="https://studenthelp.secure.griffith.edu.au/" class="">Find out more</a>
-
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
         </div>
 </main>
