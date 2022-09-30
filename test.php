@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
+    <!-- Fav Icon  -->
     <link rel="shortcut icon" href="https://www.griffith.edu.au/__data/assets/file/0012/372/favicon.ico" />
     <link rel="apple-touch-icon" href="https://www.griffith.edu.au/__data/assets/image/0011/371/apple-touch-icon.png" />
     

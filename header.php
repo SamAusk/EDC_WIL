@@ -85,14 +85,14 @@
             </div> -->
             <!-- /.search.overlay -->
 
-            <div class="mobile-nav">
+            <!-- <div class="mobile-nav">
 
                 <ul class="flex">
                     <li><a href="" class="menu" tabindex="1">Menu</a>
-                        <!-- <li><a href="" class="search" tabindex="2">Search</a> -->
-                </ul>
+                         <li><a href="" class="search" tabindex="2">Search</a> -->
+                <!-- </ul> -->
 
-            </div>
+            <!-- </div> -->
             <!-- /.mobile-nav -->
 
             <ul class="portals flex p-hide">
