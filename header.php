@@ -13,7 +13,7 @@
                 <li><a href="" class="close" tabindex="20">Close</a>
             </ul> -->
 
-            <!-- <div class="mobile-menu overlay primary">
+            <div class="mobile-menu overlay primary">
                 <ul class="flex close">
                     <li><a href="" class="close" tabindex="20">Close</a>
                 </ul>
@@ -49,10 +49,10 @@
                     <li><a href="https://www.griffith.edu.au/search">Contact us</a>
                 </ul>
 
-            </div> -->
+            </div>
             <!-- /.mobile-menu.overlay -->
 
-            <!-- <div class="search overlay primary">
+             <div class="search overlay primary">
                 <ul class="flex close">
                     <li><a href="" class="close" tabindex="20">Close</a>
                 </ul>
@@ -82,17 +82,17 @@
                     <li><a href="https://www.griffith.edu.au/scholarships">Scholarships</a>
                 </ol>
 
-            </div> -->
+            </div>
             <!-- /.search.overlay -->
 
-            <!-- <div class="mobile-nav">
+            <div class="mobile-nav">
 
                 <ul class="flex">
                     <li><a href="" class="menu" tabindex="1">Menu</a>
-                         <li><a href="" class="search" tabindex="2">Search</a> -->
-                <!-- </ul> -->
+                         <li><a href="" class="search" tabindex="2">Search</a> 
+                </ul>
 
-            <!-- </div> -->
+            </div>
             <!-- /.mobile-nav -->
 
             <ul class="portals flex p-hide">
@@ -114,7 +114,7 @@
                         </ul>
                     </div>
                 <li>
-                    <!-- <form class="search-form" action="//search.griffith.edu.au/s/search.html" method="get"
+                     <!-- <form class="search-form" action="//search.griffith.edu.au/s/search.html" method="get"
                         name="search-form">
                         <label for="false-query">Search Griffith University</label>
                         <input type="text" placeholder="Search our site" name="query" id="false-query"
