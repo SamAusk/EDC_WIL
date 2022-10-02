@@ -13,8 +13,10 @@
                         </li>
                         <li><a href="https://www.griffith.edu.au/study/criminology-law">Criminology and law</a></li>
                         <li><a href="https://www.griffith.edu.au/study/education">Education</a></li>
-                        <li><a href="https://www.griffith.edu.au/study/engineering-it-aviation">Engineering, IT and aviation</a></li>
-                        <li><a href="https://www.griffith.edu.au/study/humanities-languages">Humanities, languages and social science</a></li>
+                        <li><a href="https://www.griffith.edu.au/study/engineering-it-aviation">Engineering, IT and
+                                aviation</a></li>
+                        <li><a href="https://www.griffith.edu.au/study/humanities-languages">Humanities, languages and
+                                social science</a></li>
                         <li><a href="https://www.griffith.edu.au/study/health">Medicine, dentistry and health</a></li>
                         <li><a href="https://www.griffith.edu.au/study/music">Music and performing arts</a></li>
                         <li><a href="https://www.griffith.edu.au/study/science-environment">Science and environment</a>
