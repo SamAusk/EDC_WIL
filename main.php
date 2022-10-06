@@ -121,7 +121,7 @@
                             <h5 id="left"><b><?= $proditems['Project_Title']; ?></b></h5>
                             <p id="left"><?= $proditems['Project_Description']; ?></p>
                             <p id="left"><i><?= $proditems['Email']; ?></i></p>
-                            <p id="right"><?= $proditems['Location_Name']; ?></p>
+                            <h5 id="right"><?= $proditems['Location_Name']; ?></h5>
                         </div>
                         <?php } ?>
                         <?php   }else{
