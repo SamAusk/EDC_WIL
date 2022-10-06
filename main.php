@@ -5,7 +5,7 @@
 <!-- Role as main section -->
 <main role="main">
     <div data-asset-id="104682" class="slab cssbg  cssbg-middle" style="background-image: url(https://s34386.pcdn.co/wp-content/uploads/2022/06/GC-Website-Banner-Applications-Open_NEW.jpg);
-        background-size: contain; border:solid 5px;">
+        background-size: contain;background-size:cover;">
 
         <div class="inner">
             <div class="flex a-bottom a-left v-gu5">
