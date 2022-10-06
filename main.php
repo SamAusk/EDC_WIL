@@ -15,9 +15,6 @@
             </div>
         </div>
         <style>
-        /* .slab.pageinfo h1 {
-            display: none;
-        } */
 
         /* Here is filter button */
         .button {
@@ -84,7 +81,6 @@
                                             $checked = [];
                                             if(isset($_POST['Type']))
                                                 $checked = $_POST['Type'];
-                                            // if(in_array($Typelist['Project_ID'], $checked)){ echo "checked"; }
                                             ?>
                                     <li class="filter">
                                         <input type="checkbox" class="larger" name="Type[]"
@@ -196,18 +192,17 @@
                     </div>
                     <div class="gu1"></div>
                     <div class="gu6">
-                        <h2 class="feature">ADD AN ACTIVITY</h2>
-                        <p>Students, staff and external organisations are warmly invited to use Griffith Enrich to
-                            promote suitable co and extra-curricular activities.</p>
+                        <h2 class="feature">ADVICE GRIFFIH ALUMNI</h2>
+                        <p>Stay connect with your university during and after your study journey</p>
+                        <p>Acquiring more information from Griffith Alumni is one of the option to solve your delimma regards to project advice</p>
                         <p>These activities must provide opportunities for students to develop their <a
                                 href="https://www.griffith.edu.au/the-griffith-graduate"><i>Griffith Graduate</a>.</i>
                         </p>
-                        <p>If you have an event you wish to add to the available opportunities, please complete the
-                            below form.</p>
-                        <p>We look forward to advertising your event.</p>
+                        <p>If you have an event you wish to know more information of Griffith's Alumni, the link is down below</p>
+                        
                         <p class="btn feature">
-                            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=q8h8Wtykm0-_YGZxQEmtYrCTX81wFjpNkl0FEOw2kIVUMk05TVpEVkFIRUFTWjIyMzBTOVlUWlJJVC4u"
-                                class="">Add or update an activity</a>
+                            <a href="https://www.griffith.edu.au/advancement/alumni"
+                                class="">Alumni</a>
                         </p>
                     </div>
                     <!--/.gu6-->
@@ -216,7 +211,7 @@
             </div>
             <!--/.inner-->
         </div><!-- /.slab -->
-        <div class="slab puff primary   ">
+        <div class="slab puff primary">
             <div class="inner gu10">
                 <div class="flex a-left ">
                     <div class="card cssbg cssbg-middle gu5 v-16-9"
