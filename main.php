@@ -37,15 +37,15 @@
         <div class="inner flex a-center">
             <div class="flex gu12 t-gu12">
                 <div class="gu4 t-gu12">
-                    <p class="intro accent">Build your employability skills and experience beyond the classroom
+                    <p class="intro accent">Find your opputunities to honed your skills.
                     </p>
                 </div>
                 <div class="gu8 t-gu12">
                     <p> At griffith Univeristy We offer Diverse range of Projects Oppurtutnity for all.</p>
-                    <p>Explore the many ways you can improve your employability while you study by searching for
-                        opportunities using the Enrich &lsquo;Find Your Opportunity&rsquo; search tool.</p>
+                    <!-- <p>Explore the many ways you can improve your employability while you study by searching for
+                        opportunities using the Enrich &lsquo;Find Your Opportunity&rsquo; search tool.</p> -->
                     <p>This project applied for the WIL porject </p>
-                    <p>Remember to use your portfolio to record and reflect on these experiences. It will help you to
+                    <p> Remember to use your portfolio to record and reflect on these experiences. It will help you to
                         gain a competitive advantage among other graduates.</p>
                 </div>
             </div>
@@ -192,7 +192,7 @@
                     </div>
                     <div class="gu1"></div>
                     <div class="gu6">
-                        <h2 class="feature">ADVICE GRIFFIH ALUMNI</h2>
+                        <h2 class="feature">ADVICE GRIFFITH ALUMNI</h2>
                         <p>Stay connect with your university during and after your study journey</p>
                         <p>Acquiring more information from Griffith Alumni is one of the option to solve your delimma regards to project advice</p>
                         <p>These activities must provide opportunities for students to develop their <a

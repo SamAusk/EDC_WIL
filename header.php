@@ -1,4 +1,5 @@
 <!-- prevent csrf attack-->
+
 <input type="hidden" name="token" value="09a43d521d11ccd06684ff1ab23a42702e3bf173" class="sq-form-field" id="token" />
 <header>
     <div class="slab">
@@ -44,7 +45,7 @@
                     <li><a href="https://www.griffith.edu.au/intranet">Staff portal</a>
                     <li><a href="https://www.griffith.edu.au/search">Contact us</a>
                 </ul>
-
+            
             </div>
             <!-- /.mobile-menu.overlay -->
 
