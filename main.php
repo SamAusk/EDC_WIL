@@ -4,11 +4,11 @@
 ?>
 <!-- Role as main section -->
 <main role="main">
-    <div data-asset-id="104682" class="slab cssbg  cssbg-middle" style="background-image: url(https://pbs.twimg.com/media/E1-92nSVIAUjqIx?format=jpg&name=4096x4096);
-        background-size: contain; background-size: auto;">
+    <div data-asset-id="104682" class="slab cssbg  cssbg-middle" style="background-image: url(https://s34386.pcdn.co/wp-content/uploads/2022/06/GC-Website-Banner-Applications-Open_NEW.jpg);
+        background-size: contain; border:solid 5px;">
 
         <div class="inner">
-            <div class="flex a-bottom a-right v-gu5">
+            <div class="flex a-bottom a-left v-gu5">
                 <div class="banner card gu5 a-left ">
                     <h1>Search your opportunies</h1>
                 </div>
@@ -187,8 +187,8 @@
         <div class="slab puff secondary">
             <div class="inner gu10">
                 <div class="flex a-left">
-                    <div class="card cssbg cssbg-middle gu5 v-16-9" style="background-image: url(https://png.pngitem.com/pimgs/s/181-1814313_transparent-umaru-chan-png-himouto-umaru-chan-png.png);
-                        background-size: contain; height:300px; width:300px;">
+                    <div class="card cssbg cssbg-middle gu5 v-16-9" style="background-image: url(https://news.griffith.edu.au/wp-content/uploads/2020/12/yasmin-atwani-3-1200x1200.jpeg);
+                        background-size: contain;">
                     </div>
                     <div class="gu1"></div>
                     <div class="gu6">
