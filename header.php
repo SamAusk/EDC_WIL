@@ -8,10 +8,6 @@
                 <p><a href="https://www.griffith.edu.au/" class="ir" tabindex="21">Griffith University</a></p>
             </div>
 
-            <!-- close button  -->
-            <!-- <ul class="flex close">
-                <li><a href="" class="close" tabindex="20">Close</a>
-            </ul> -->
 
             <div class="mobile-menu overlay primary">
                 <ul class="flex close">
@@ -35,11 +31,11 @@
                     <div class="alumni">
                         <h3><a href="https://www.griffith.edu.au/advancement" tabindex="8">Advancement</a></h3>
                     </div>
-                    <div class="about-griffith">
-                        <h3><a href="https://www.griffith.edu.au/about-griffith" tabindex="9">About Griffith</a></h3>
-                    </div>
                     <div class="staff" id="content_div_769267">
                         <h3><a href="https://www.griffith.edu.au/staff" tabindex="10">Staff</a></h3>
+                    </div>
+                    <div class="about-griffith">
+                        <h3><a href="https://www.griffith.edu.au/about-griffith" tabindex="9">About Griffith</a></h3>
                     </div>
                 </nav>
 
@@ -52,44 +48,13 @@
             </div>
             <!-- /.mobile-menu.overlay -->
 
-            <div class="search overlay primary">
-                <ul class="flex close">
-                    <li><a href="" class="close" tabindex="20">Close</a>
-                </ul>
-
-                <form class="search-form" action="//search.griffith.edu.au/s/search.html" method="get"
-                    name="search-form">
-                    <label for="query">Search Griffith University</label>
-                    <input type="text" placeholder="Search Griffith University" name="query" id="query"
-                        autocomplete="off" tabindex="3">
-                    <input type="hidden" value="on-campus-search" name="collection">
-                    <button type="submit" value="Search" tabindex="4"><span>Search</span></button>
-                </form>
-
-                <p class="listing">Popular sites</p>
-                <ol class="popular-links flex col-2">
-                    <li><a href="https://www.griffith.edu.au/study">Study</a>
-                    <li><a href="https://www.griffith.edu.au/research-study">Research study</a>
-                    <li><a href="https://www.griffith.edu.au/library">Library</a>
-                    <li><a href="https://www.griffith.edu.au/academic-calendar-key-dates">Academic calendar and key
-                            dates</a>
-                    <li><a href="https://www.griffith.edu.au/search/">Contact us</a>
-                    <li><a href="https://www.griffith.edu.au/life-at-griffith">Life at Griffith</a>
-                    <li><a href="https://www.griffith.edu.au/job-ready-certificates">Job ready certificates</a>
-                    <li><a href="https://www.griffith.edu.au/international">International</a>
-                    <li><a href="https://www.griffith.edu.au/about-griffith/campuses-facilities">Campuses and
-                            facilities</a>
-                    <li><a href="https://www.griffith.edu.au/scholarships">Scholarships</a>
-                </ol>
-
-            </div>
+            
             <!-- /.search.overlay -->
 
             <div class="mobile-nav">
 
                 <ul class="flex">
                     <li><a href="" class="menu" tabindex="1">Menu</a>
-                    <li><a href="" class="search" tabindex="2">Search</a>
                 </ul>
 
             </div>
@@ -114,14 +79,7 @@
                         </ul>
                     </div>
                 <li>
-                    <!-- <form class="search-form" action="//search.griffith.edu.au/s/search.html" method="get"
-                        name="search-form">
-                        <label for="false-query">Search Griffith University</label>
-                        <input type="text" placeholder="Search our site" name="query" id="false-query"
-                            autocomplete="off">
-                        <input type="hidden" value="on-campus-search" name="collection">
-                        <button type="submit" value="Search" tabindex="4"><span>Search</span></button>
-                    </form> -->
+                    
             </ul><!-- /.portals -->
 
             <div class="desktop-nav p-hide">
