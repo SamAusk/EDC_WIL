@@ -10,7 +10,7 @@
         <div class="inner">
             <div class="flex a-bottom a-left v-gu5">
                 <div class="banner card gu5 a-left ">
-                    <h1>Search your opportunies</h1>
+                    <h1>Search your opportunities</h1>
                 </div>
             </div>
         </div>
