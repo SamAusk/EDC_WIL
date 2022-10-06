@@ -202,7 +202,7 @@
                         
                         <p class="btn feature">
                             <a href="https://www.griffith.edu.au/advancement/alumni"
-                                class="">Alumni</a>
+                                class="">Discover more</a>
                         </p>
                     </div>
                     <!--/.gu6-->
