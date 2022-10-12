@@ -27,7 +27,6 @@
             $Type_query_run  = mysqli_query($this->con, $Type_query);
             $results = mysqli_fetch_assoc($Type_query_run);
 
-            // var_dump($results);
             $expected = "UG industry Internship (WIL)";
 
             $this->con->close();
@@ -65,7 +64,7 @@
             }
 
             $type = array_count_values($t); //
-            // The result should be 3 (TypeID 1 one and TypeID 2 two)
+            // The result should be 3 (TypeID 1 one and TypeID 2 two) and have 3 rows
             if($type["1"] == 1 && $type["2"] == 2 && $actual_row == 3){
                 $this->assertTrue(true);
             }
