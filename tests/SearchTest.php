@@ -40,7 +40,6 @@
 
             $products_query_run  = mysqli_query($this->con, $Type_query);
             $actual_row = mysqli_num_rows($products_query_run);
-            // var_dump($num);
 
             
             $expected_row = 7;
